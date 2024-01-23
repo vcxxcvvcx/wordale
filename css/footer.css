@@ -1,0 +1,44 @@
+footer {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  width: 35px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.keyboard-key.wide {
+  width: 70px;
+}
+.back-space-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Optional: Hover effect */
+.keyboard-key:hover {
+  background-color: #ddd;
+}
