@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid gainsboro;
+  height: 50px;
+}
+
+.bar img {
+  display: flex;
+  justify-content: left;
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.wordle {
+  display: flex;
+  text-justify: auto;
+  font-size: 30px;
+  font: bold;
+}
+.right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+}
+.right img {
+  padding-right: 4px;
+}
+.sub {
+  font-size: medium;
+  cursor: pointer;
+}
+.sub:hover {
+  background-color: #ddd;
+}
