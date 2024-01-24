@@ -9,16 +9,17 @@ main {
 
 #board {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 5px;
 }
 
 .board-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 5px;
+  white-space: normal;
 }
 
 .board-block {
@@ -28,4 +29,6 @@ main {
   border: 3px solid gainsboro;
   width: 60px;
   height: 60px;
+  font-size: 30px;
+  white-space: normal;
 }
